@@ -1,0 +1,38 @@
+
+/* ***************************************BODY***************************************** */
+.container{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.popUpPseudo{
+    width: 40%;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+#popUpPseudoSpan{
+    text-transform: uppercase;
+}
+
+#popUpPseudoButton {
+    text-transform: uppercase;
+}
+
